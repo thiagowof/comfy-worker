@@ -1,4 +1,4 @@
-FROM runpod/worker-comfyui:3.7.1-base
+FROM runpod/worker-comfyui:5.6.0-base
 
 # Custom nodes
 RUN comfy-node-install comfyui-reactor && \
