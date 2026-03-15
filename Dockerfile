@@ -17,8 +17,8 @@ RUN pip3 install --no-cache-dir -r requirements.txt
 # Custom nodes
 RUN cd custom_nodes && \
     # ReActor (face swap)
-    git clone https://github.com/Gourieff/comfyui-reactor-node.git && \
-    pip3 install --no-cache-dir -r comfyui-reactor-node/requirements.txt && \
+    git clone https://github.com/Gourieff/ComfyUI-ReActor.git && \
+    pip3 install --no-cache-dir -r ComfyUI-ReActor/requirements.txt && \
     # ControlNet Auxiliary Preprocessors
     git clone https://github.com/Fannovel16/comfyui_controlnet_aux.git && \
     pip3 install --no-cache-dir -r comfyui_controlnet_aux/requirements.txt && \
